@@ -1,0 +1,7 @@
+install:
+  - ./gradlew.bat clean jar
+
+test_script:
+  - mvn dependency:copy-dependencies
+
+build: off
