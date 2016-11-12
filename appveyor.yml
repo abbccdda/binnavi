@@ -3,5 +3,6 @@ install:
 
 test_script:
   - mvn dependency:copy-dependencies
+  - ant build-binnavi-fat-jar
 
 build: off
