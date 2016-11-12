@@ -1,8 +1,8 @@
 install:
-  - "SET PATH=C:\\ant\\bin;%PATH%"
+  # - "SET PATH=C:\\ant\\bin;%PATH%"
 
 test_script:
   - mvn dependency:copy-dependencies
-  - "ant build-binnavi-fat-jar"
+  # - "ant build-binnavi-fat-jar"
 
 build: off
