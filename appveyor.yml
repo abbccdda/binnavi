@@ -1,5 +1,5 @@
 install:
-  - ./gradlew.bat clean jar
+  - "SET PATH=C:\\ant\\bin;%PATH%"
 
 test_script:
   - mvn dependency:copy-dependencies
